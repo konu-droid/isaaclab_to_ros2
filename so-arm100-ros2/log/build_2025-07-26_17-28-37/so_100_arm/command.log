@@ -1,0 +1,6 @@
+Invoking command in '/home/konu/Documents/so-arm100-ros2/build/so_100_arm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/konu/Documents/so-arm100-ros2/src/SO-100-arm -DCMAKE_INSTALL_PREFIX=/home/konu/Documents/so-arm100-ros2/install/so_100_arm
+Invoked command in '/home/konu/Documents/so-arm100-ros2/build/so_100_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/konu/Documents/so-arm100-ros2/src/SO-100-arm -DCMAKE_INSTALL_PREFIX=/home/konu/Documents/so-arm100-ros2/install/so_100_arm
+Invoking command in '/home/konu/Documents/so-arm100-ros2/build/so_100_arm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/konu/Documents/so-arm100-ros2/build/so_100_arm -- -j16 -l16
+Invoked command in '/home/konu/Documents/so-arm100-ros2/build/so_100_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/konu/Documents/so-arm100-ros2/build/so_100_arm -- -j16 -l16
+Invoking command in '/home/konu/Documents/so-arm100-ros2/build/so_100_arm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/konu/Documents/so-arm100-ros2/build/so_100_arm
+Invoked command in '/home/konu/Documents/so-arm100-ros2/build/so_100_arm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/konu/Documents/so-arm100-ros2/build/so_100_arm

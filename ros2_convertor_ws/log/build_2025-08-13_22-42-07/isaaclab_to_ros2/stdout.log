@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/isaaclab_to_ros2/isaaclab_to_ros2.egg-info
+writing ../../build/isaaclab_to_ros2/isaaclab_to_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/isaaclab_to_ros2/isaaclab_to_ros2.egg-info/dependency_links.txt
+writing requirements to ../../build/isaaclab_to_ros2/isaaclab_to_ros2.egg-info/requires.txt
+writing top-level names to ../../build/isaaclab_to_ros2/isaaclab_to_ros2.egg-info/top_level.txt
+writing manifest file '../../build/isaaclab_to_ros2/isaaclab_to_ros2.egg-info/SOURCES.txt'
+reading manifest file '../../build/isaaclab_to_ros2/isaaclab_to_ros2.egg-info/SOURCES.txt'
+writing manifest file '../../build/isaaclab_to_ros2/isaaclab_to_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/konu/Documents/isaaclab_to_ros2/ros2_convertor_ws/build/isaaclab_to_ros2/build
+creating /home/konu/Documents/isaaclab_to_ros2/ros2_convertor_ws/build/isaaclab_to_ros2/build/lib
+creating /home/konu/Documents/isaaclab_to_ros2/ros2_convertor_ws/build/isaaclab_to_ros2/build/lib/isaaclab_to_ros2
+copying isaaclab_to_ros2/__init__.py -> /home/konu/Documents/isaaclab_to_ros2/ros2_convertor_ws/build/isaaclab_to_ros2/build/lib/isaaclab_to_ros2
+running install
+running install_lib
+creating /home/konu/Documents/isaaclab_to_ros2/ros2_convertor_ws/install/isaaclab_to_ros2/lib/python3.12/site-packages/isaaclab_to_ros2
+copying /home/konu/Documents/isaaclab_to_ros2/ros2_convertor_ws/build/isaaclab_to_ros2/build/lib/isaaclab_to_ros2/__init__.py -> /home/konu/Documents/isaaclab_to_ros2/ros2_convertor_ws/install/isaaclab_to_ros2/lib/python3.12/site-packages/isaaclab_to_ros2
+byte-compiling /home/konu/Documents/isaaclab_to_ros2/ros2_convertor_ws/install/isaaclab_to_ros2/lib/python3.12/site-packages/isaaclab_to_ros2/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/konu/Documents/isaaclab_to_ros2/ros2_convertor_ws/install/isaaclab_to_ros2/share/ament_index
+creating /home/konu/Documents/isaaclab_to_ros2/ros2_convertor_ws/install/isaaclab_to_ros2/share/ament_index/resource_index
+creating /home/konu/Documents/isaaclab_to_ros2/ros2_convertor_ws/install/isaaclab_to_ros2/share/ament_index/resource_index/packages
+copying resource/isaaclab_to_ros2 -> /home/konu/Documents/isaaclab_to_ros2/ros2_convertor_ws/install/isaaclab_to_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /home/konu/Documents/isaaclab_to_ros2/ros2_convertor_ws/install/isaaclab_to_ros2/share/isaaclab_to_ros2
+running install_egg_info
+Copying ../../build/isaaclab_to_ros2/isaaclab_to_ros2.egg-info to /home/konu/Documents/isaaclab_to_ros2/ros2_convertor_ws/install/isaaclab_to_ros2/lib/python3.12/site-packages/isaaclab_to_ros2-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/konu/Documents/isaaclab_to_ros2/ros2_convertor_ws/build/isaaclab_to_ros2/install.log'

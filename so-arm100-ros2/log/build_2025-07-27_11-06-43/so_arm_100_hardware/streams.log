@@ -1,0 +1,107 @@
+[0.009s] Invoking command in '/home/konu/Documents/so-arm100-ros2/build/so_arm_100_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/konu/Documents/so-arm100-ros2/build/so_arm_100_hardware -- -j16 -l16
+[0.054s] [ 53%] Built target SCServo
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target ping_test[0m
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target test_servo[0m
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target so_arm_100_hardware[0m
+[0.075s] [ 61%] [32mBuilding CXX object CMakeFiles/ping_test.dir/test/ping_test.cpp.o[0m
+[0.077s] [ 69%] [32mBuilding CXX object CMakeFiles/test_servo.dir/test/test_servo.cpp.o[0m
+[0.091s] [ 76%] [32mBuilding CXX object CMakeFiles/so_arm_100_hardware.dir/src/so_arm_100_interface.cpp.o[0m
+[0.266s] [01m[K/home/konu/Documents/so-arm100-ros2/src/so_arm_100_hardware/test/test_servo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.266s] [01m[K/home/konu/Documents/so-arm100-ros2/src/so_arm_100_hardware/test/test_servo.cpp:8:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.267s]     8 | int main([01;35m[Kint argc[m[K, char **argv)
+[0.267s]       |          [01;35m[K~~~~^~~~[m[K
+[0.267s] [01m[K/home/konu/Documents/so-arm100-ros2/src/so_arm_100_hardware/test/test_servo.cpp:8:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.267s]     8 | int main(int argc, [01;35m[Kchar **argv[m[K)
+[0.267s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[0.280s] [01m[K/home/konu/Documents/so-arm100-ros2/src/so_arm_100_hardware/test/ping_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.280s] [01m[K/home/konu/Documents/so-arm100-ros2/src/so_arm_100_hardware/test/ping_test.cpp:8:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.281s]     8 | int main([01;35m[Kint argc[m[K, char **argv)
+[0.281s]       |          [01;35m[K~~~~^~~~[m[K
+[0.281s] [01m[K/home/konu/Documents/so-arm100-ros2/src/so_arm_100_hardware/test/ping_test.cpp:8:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.281s]     8 | int main(int argc, [01;35m[Kchar **argv[m[K)
+[0.281s]       |                    [01;35m[K~~~~~~~^~~~[m[K
+[0.310s] [ 84%] [32m[1mLinking CXX executable test_servo[0m
+[0.330s] [ 92%] [32m[1mLinking CXX executable ping_test[0m
+[0.370s] [ 92%] Built target test_servo
+[0.394s] [ 92%] Built target ping_test
+[1.927s] [01m[K/home/konu/Documents/so-arm100-ros2/src/so_arm_100_hardware/src/so_arm_100_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type so_arm_100_controller::SOARM100Interface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.927s] [01m[K/home/konu/Documents/so-arm100-ros2/src/so_arm_100_hardware/src/so_arm_100_interface.cpp:183:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.927s]   183 | hardware_interface::return_type SOARM100Interface::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[1.927s]       |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.927s] [01m[K/home/konu/Documents/so-arm100-ros2/src/so_arm_100_hardware/src/so_arm_100_interface.cpp:183:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.927s]   183 | eturn_type SOARM100Interface::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[1.928s]       |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.928s] 
+[1.928s] [01m[K/home/konu/Documents/so-arm100-ros2/src/so_arm_100_hardware/src/so_arm_100_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type so_arm_100_controller::SOARM100Interface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.928s] [01m[K/home/konu/Documents/so-arm100-ros2/src/so_arm_100_hardware/src/so_arm_100_interface.cpp:243:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmove[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.928s]   243 |                 int [01;35m[Kmove[m[K = st3215_.ReadMove(servo_id);
+[1.928s]       |                     [01;35m[K^~~~[m[K
+[1.929s] [01m[K/home/konu/Documents/so-arm100-ros2/src/so_arm_100_hardware/src/so_arm_100_interface.cpp:218:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.929s]   218 | hardware_interface::return_type SOARM100Interface::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[1.929s]       |                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[1.929s] [01m[K/home/konu/Documents/so-arm100-ros2/src/so_arm_100_hardware/src/so_arm_100_interface.cpp:218:109:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.929s]   218 | return_type SOARM100Interface::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[1.929s]       |                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.929s] 
+[6.918s] [100%] [32m[1mLinking CXX shared library libso_arm_100_hardware.so[0m
+[7.330s] [100%] Built target so_arm_100_hardware
+[7.341s] Invoked command in '/home/konu/Documents/so-arm100-ros2/build/so_arm_100_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/konu/Documents/so-arm100-ros2/build/so_arm_100_hardware -- -j16 -l16
+[7.342s] Invoking command in '/home/konu/Documents/so-arm100-ros2/build/so_arm_100_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/konu/Documents/so-arm100-ros2/build/so_arm_100_hardware
+[7.350s] -- Install configuration: ""
+[7.350s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/so_arm_100_hardware.xml
+[7.350s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/library_path.sh
+[7.350s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/library_path.dsv
+[7.350s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/config
+[7.350s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/config/hardware_config.yaml
+[7.350s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/config/posses
+[7.350s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/config/posses/zero.txt
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/config/calibration.yaml
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/so_arm_100_hardware
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/so_arm_100_hardware/so_arm_100_interface.hpp
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMS_STS.h
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMSCL.cpp
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/CMakeLists.txt
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMSBL.h
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCS.h
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMSBL.cpp
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCSCL.h
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCSerial.h
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCS.cpp
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCSCL.cpp
+[7.351s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMS_STS.cpp
+[7.352s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCSerial.cpp
+[7.352s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/INST.h
+[7.352s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/.gitignore
+[7.352s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCServo.h
+[7.352s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMSCL.h
+[7.352s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/posses
+[7.352s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/posses/zero.txt
+[7.352s] -- Installing: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/lib/so_arm_100_hardware/libso_arm_100_hardware.so
+[7.363s] -- Set runtime path of "/home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/lib/so_arm_100_hardware/libso_arm_100_hardware.so" to ""
+[7.364s] -- Installing: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/lib/so_arm_100_hardware/test_servo
+[7.364s] -- Installing: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/lib/so_arm_100_hardware/ping_test
+[7.364s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/lib/so_arm_100_hardware/calibrate_arm.py
+[7.364s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/lib/so_arm_100_hardware/zero_pose.py
+[7.364s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/lib/so_arm_100_hardware/jog_joints.py
+[7.364s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/ament_index/resource_index/package_run_dependencies/so_arm_100_hardware
+[7.364s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/ament_index/resource_index/parent_prefix_path/so_arm_100_hardware
+[7.364s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/ament_prefix_path.sh
+[7.364s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/ament_prefix_path.dsv
+[7.364s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/path.sh
+[7.364s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/path.dsv
+[7.364s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/local_setup.bash
+[7.365s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/local_setup.sh
+[7.365s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/local_setup.zsh
+[7.365s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/local_setup.dsv
+[7.365s] -- Installing: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/package.dsv
+[7.365s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/ament_index/resource_index/packages/so_arm_100_hardware
+[7.365s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/so_arm_100_hardware
+[7.365s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.365s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[7.365s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.365s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/cmake/so_arm_100_hardwareConfig.cmake
+[7.365s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/cmake/so_arm_100_hardwareConfig-version.cmake
+[7.365s] -- Up-to-date: /home/konu/Documents/so-arm100-ros2/install/so_arm_100_hardware/share/so_arm_100_hardware/package.xml
+[7.368s] Invoked command in '/home/konu/Documents/so-arm100-ros2/build/so_arm_100_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/konu/Documents/so-arm100-ros2/build/so_arm_100_hardware

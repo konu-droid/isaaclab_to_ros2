@@ -1,0 +1,2 @@
+[console_scripts]
+evaluator_node = isaaclab_to_ros2.sim_to_real_evaluator:main
