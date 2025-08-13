@@ -2,6 +2,10 @@
 
 This repository provides the necessary tools to bridge Isaac Lab with ROS 2, primarily for the so10x arm. It includes a ROS 2 workspace (`ros2_convertor_ws`) to facilitate this communication and an Isaac Lab task for training.
 
+![so100 Arm in Action](media/my_so100arm.jpg)
+
+![Isaac Lab Simulated Environment](media/so100_training_closeup.png)
+
 ## 🤖 Repositories
 
   * **`lerobot_cube_move`**: Contains a custom Isaac Lab task designed to train the so10x arm to perform a reaching task.
@@ -36,3 +40,18 @@ This workspace contains the `isaaclab_to_ros2` package.
     ```bash
     ros2 service call /calculate_transfer_score std_srvs/srv/Trigger
     ```
+
+### 📊 How to Use the Trajectory Plotter
+
+The `trajectory_compare_viz.py` script visualizes the sim-to-real performance gap.
+
+1.  **Install Dependencies**:
+    ```bash
+    pip install pandas matplotlib
+    ```
+2.  **Prepare Data**: Have two CSV files (simulated vs. real) with corresponding motor trajectories.
+3.  **Run Script**:
+    ```bash
+    python trajectory_compare_viz.py path/to/your/ideal_trajectory.csv path/to/your/real_trajectory.csv
+    ```
+    This generates plots comparing the trajectories for each motor.
